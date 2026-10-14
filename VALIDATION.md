@@ -1,6 +1,6 @@
 # Validation record
 
-Date: 2026-10-14. Version: 1.0.0. Creator: Skryd1X.
+Date: 2026-10-14. Version: 1.0.0. Creator: Skryd1X. This record describes local validation before GitHub publication; current hosted results are available in the repository's Actions tab.
 
 ## Executed and passed
 

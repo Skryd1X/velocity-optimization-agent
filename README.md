@@ -66,7 +66,7 @@ See VALIDATION.md for actual fixture results and limits. No universal bug-free/d
 
 Set `VELOCITY_FULL_MATRIX=1` before `npm run test:browser` to execute the complete generated synthetic Chromium layout/interaction matrix. Set `VELOCITY_BROWSER_REPORT` to a fresh JSON file path to retain raw browser evidence. The device descriptors do not imply physical-device testing or testing in every device's preferred browser engine.
 
-The included CI workflow is prepared for Windows and Linux. Hosted CI has not run for this unpublished package. Manual host behavior scenarios are in tests/evaluation-scenarios.md; automated helper checks are not a substitute for client/agent evaluation.
+The included CI workflow runs on Windows and Linux. See [GitHub Actions](https://github.com/Skryd1X/velocity-optimization-agent/actions) for current hosted results. VALIDATION.md records the original local validation before publication. Manual host behavior scenarios are in tests/evaluation-scenarios.md; automated helper checks are not a substitute for client/agent evaluation.
 
 ## License
 
