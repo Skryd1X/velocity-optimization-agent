@@ -1,0 +1,561 @@
+{
+  "passed": true,
+  "database": {
+    "before": {
+      "schema_version": 1,
+      "context": {
+        "scenario": "lookup",
+        "environment": "local-fixture",
+        "build_mode": "release",
+        "device": "local-host",
+        "dataset": "synthetic-50000-v1",
+        "workload": "sequential-read",
+        "cache_state": "repeated-read"
+      },
+      "failures": 0,
+      "metrics": [
+        {
+          "name": "query",
+          "samples": [
+            3.8883000015630387,
+            2.3954000062076375,
+            2.326000001630746,
+            1.4770000052521937,
+            1.7154999950435013,
+            2.6160999987041578,
+            2.1645000015269034,
+            1.5031000002636574,
+            2.6246999987051822,
+            2.017400001932401,
+            2.043300002696924,
+            1.6107000046758913,
+            1.5310999951907434,
+            1.7225000046892092,
+            2.087000000756234
+          ],
+          "unit": "ms",
+          "direction": "lower"
+        }
+      ],
+      "observations": [
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 3.8883000015630387
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 2.3954000062076375
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 2.326000001630746
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 1.4770000052521937
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 1.7154999950435013
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 2.6160999987041578
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 2.1645000015269034
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 1.5031000002636574
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 2.6246999987051822
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 2.017400001932401
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 2.043300002696924
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 1.6107000046758913
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 1.5310999951907434
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 1.7225000046892092
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 2.087000000756234
+        }
+      ],
+      "plan": [
+        [
+          3,
+          0,
+          216,
+          "SCAN items"
+        ]
+      ],
+      "query_sha256": "e482c1f4c606332ba32e00adbf4a63e9f3a3148ffda26e135641baf13d6cb0a2",
+      "cache_note": "Repeated reads; first observation may warm cache. No production inference."
+    },
+    "after": {
+      "schema_version": 1,
+      "context": {
+        "scenario": "lookup",
+        "environment": "local-fixture",
+        "build_mode": "release",
+        "device": "local-host",
+        "dataset": "synthetic-50000-v1",
+        "workload": "sequential-read",
+        "cache_state": "repeated-read"
+      },
+      "failures": 0,
+      "metrics": [
+        {
+          "name": "query",
+          "samples": [
+            0.33010000333888456,
+            0.13010000111535192,
+            0.12200000492157415,
+            0.12179999612271786,
+            0.14630000077886507,
+            0.14600000577047467,
+            0.11809999705292284,
+            0.11649999942164868,
+            0.11749999976018444,
+            0.11799999629147351,
+            0.11850000009872019,
+            0.20930000027874485,
+            0.3251000016462058,
+            0.3415000028326176,
+            0.28399999428074807
+          ],
+          "unit": "ms",
+          "direction": "lower"
+        }
+      ],
+      "observations": [
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.33010000333888456
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.13010000111535192
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.12200000492157415
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.12179999612271786
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.14630000077886507
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.14600000577047467
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.11809999705292284
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.11649999942164868
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.11749999976018444
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.11799999629147351
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.11850000009872019
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.20930000027874485
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.3251000016462058
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.3415000028326176
+        },
+        {
+          "success": true,
+          "rows": 50,
+          "result_sha256": "ad62e1cdc60ca3ed928fffe34adbbbe8a09725feaf3177d369d1774ec58c6313",
+          "ms": 0.28399999428074807
+        }
+      ],
+      "plan": [
+        [
+          4,
+          0,
+          61,
+          "SEARCH items USING INDEX items_category (category=?)"
+        ]
+      ],
+      "query_sha256": "e482c1f4c606332ba32e00adbf4a63e9f3a3148ffda26e135641baf13d6cb0a2",
+      "cache_note": "Repeated reads; first observation may warm cache. No production inference."
+    },
+    "comparison": {
+      "schema_version": 1,
+      "context": {
+        "scenario": "lookup",
+        "environment": "local-fixture",
+        "build_mode": "release",
+        "device": "local-host",
+        "dataset": "synthetic-50000-v1",
+        "workload": "sequential-read",
+        "cache_state": "repeated-read"
+      },
+      "passed": true,
+      "metrics": [
+        {
+          "name": "query",
+          "unit": "ms",
+          "before_median": 2.043300002696924,
+          "after_median": 0.13010000111535192,
+          "before_p95": 3.8883000015630387,
+          "after_p95": 0.3415000028326176,
+          "status": "improved",
+          "budget_pass": true,
+          "improvement_percent": 91.2172413986745
+        }
+      ],
+      "failures_before": 0,
+      "failures_after": 0,
+      "tail_note": "Small samples are local observations, not population tail estimates"
+    }
+  },
+  "api": {
+    "before": {
+      "schema_version": 1,
+      "context": {
+        "scenario": "API-fixture",
+        "environment": "local-fixture",
+        "build_mode": "release",
+        "device": "local-host",
+        "dataset": "synthetic-50000-v1",
+        "workload": "sequential-read",
+        "cache_state": "fixture-delay"
+      },
+      "revision": null,
+      "failures": 0,
+      "metrics": [
+        {
+          "name": "total",
+          "samples": [
+            103.46769999887329,
+            117.03359999955865,
+            118.10390000027837,
+            118.38460000581108,
+            116.25199999980396,
+            119.14880000404082,
+            121.25599999853875
+          ],
+          "unit": "ms",
+          "direction": "lower"
+        },
+        {
+          "name": "ttfb",
+          "samples": [
+            102.60910000215517,
+            116.25320000166539,
+            117.48629999783589,
+            118.16640000324696,
+            115.6014000007417,
+            118.3320000054664,
+            120.55949999921722
+          ],
+          "unit": "ms",
+          "direction": "lower"
+        }
+      ],
+      "observations": [
+        {
+          "sample": 1,
+          "success": true,
+          "status": 200,
+          "bytes": 26,
+          "total_ms": 103.46769999887329,
+          "ttfb_ms": 102.60910000215517
+        },
+        {
+          "sample": 2,
+          "success": true,
+          "status": 200,
+          "bytes": 26,
+          "total_ms": 117.03359999955865,
+          "ttfb_ms": 116.25320000166539
+        },
+        {
+          "sample": 3,
+          "success": true,
+          "status": 200,
+          "bytes": 26,
+          "total_ms": 118.10390000027837,
+          "ttfb_ms": 117.48629999783589
+        },
+        {
+          "sample": 4,
+          "success": true,
+          "status": 200,
+          "bytes": 26,
+          "total_ms": 118.38460000581108,
+          "ttfb_ms": 118.16640000324696
+        },
+        {
+          "sample": 5,
+          "success": true,
+          "status": 200,
+          "bytes": 26,
+          "total_ms": 116.25199999980396,
+          "ttfb_ms": 115.6014000007417
+        },
+        {
+          "sample": 6,
+          "success": true,
+          "status": 200,
+          "bytes": 26,
+          "total_ms": 119.14880000404082,
+          "ttfb_ms": 118.3320000054664
+        },
+        {
+          "sample": 7,
+          "success": true,
+          "status": 200,
+          "bytes": 26,
+          "total_ms": 121.25599999853875,
+          "ttfb_ms": 120.55949999921722
+        }
+      ],
+      "evidence": "sequential API lab observation; not a load test or DB trace"
+    },
+    "after": {
+      "schema_version": 1,
+      "context": {
+        "scenario": "API-fixture",
+        "environment": "local-fixture",
+        "build_mode": "release",
+        "device": "local-host",
+        "dataset": "synthetic-50000-v1",
+        "workload": "sequential-read",
+        "cache_state": "fixture-delay"
+      },
+      "revision": null,
+      "failures": 0,
+      "metrics": [
+        {
+          "name": "total",
+          "samples": [
+            17.663399994489737,
+            23.350800001935568,
+            24.95650000491878,
+            26.267000001098495,
+            24.96189999510534,
+            23.608100003912114,
+            25.206900005287025
+          ],
+          "unit": "ms",
+          "direction": "lower"
+        },
+        {
+          "name": "ttfb",
+          "samples": [
+            17.104799997468945,
+            23.102400002244394,
+            24.54540000326233,
+            25.7119000016246,
+            24.686799995834008,
+            23.301599998376332,
+            24.360700001125224
+          ],
+          "unit": "ms",
+          "direction": "lower"
+        }
+      ],
+      "observations": [
+        {
+          "sample": 1,
+          "success": true,
+          "status": 200,
+          "bytes": 26,
+          "total_ms": 17.663399994489737,
+          "ttfb_ms": 17.104799997468945
+        },
+        {
+          "sample": 2,
+          "success": true,
+          "status": 200,
+          "bytes": 26,
+          "total_ms": 23.350800001935568,
+          "ttfb_ms": 23.102400002244394
+        },
+        {
+          "sample": 3,
+          "success": true,
+          "status": 200,
+          "bytes": 26,
+          "total_ms": 24.95650000491878,
+          "ttfb_ms": 24.54540000326233
+        },
+        {
+          "sample": 4,
+          "success": true,
+          "status": 200,
+          "bytes": 26,
+          "total_ms": 26.267000001098495,
+          "ttfb_ms": 25.7119000016246
+        },
+        {
+          "sample": 5,
+          "success": true,
+          "status": 200,
+          "bytes": 26,
+          "total_ms": 24.96189999510534,
+          "ttfb_ms": 24.686799995834008
+        },
+        {
+          "sample": 6,
+          "success": true,
+          "status": 200,
+          "bytes": 26,
+          "total_ms": 23.608100003912114,
+          "ttfb_ms": 23.301599998376332
+        },
+        {
+          "sample": 7,
+          "success": true,
+          "status": 200,
+          "bytes": 26,
+          "total_ms": 25.206900005287025,
+          "ttfb_ms": 24.360700001125224
+        }
+      ],
+      "evidence": "sequential API lab observation; not a load test or DB trace"
+    },
+    "comparison": {
+      "schema_version": 1,
+      "context": {
+        "scenario": "API-fixture",
+        "environment": "local-fixture",
+        "build_mode": "release",
+        "device": "local-host",
+        "dataset": "synthetic-50000-v1",
+        "workload": "sequential-read",
+        "cache_state": "fixture-delay"
+      },
+      "passed": true,
+      "metrics": [
+        {
+          "name": "total",
+          "unit": "ms",
+          "before_median": 118.10390000027837,
+          "after_median": 24.95650000491878,
+          "before_p95": 121.25599999853875,
+          "after_p95": 26.267000001098495,
+          "status": "improved",
+          "budget_pass": true,
+          "improvement_percent": 78.33756679965113
+        },
+        {
+          "name": "ttfb",
+          "unit": "ms",
+          "before_median": 117.48629999783589,
+          "after_median": 24.360700001125224,
+          "before_p95": 120.55949999921722,
+          "after_p95": 25.7119000016246,
+          "status": "improved",
+          "budget_pass": true,
+          "improvement_percent": 78.67285448115533
+        }
+      ],
+      "failures_before": 0,
+      "failures_after": 0,
+      "tail_note": "Small samples are local observations, not population tail estimates"
+    }
+  },
+  "boundary": "Synthetic SQLite index repair and artificial API delay removal; not a production improvement claim"
+}

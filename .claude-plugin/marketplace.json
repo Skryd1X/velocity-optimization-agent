@@ -1,0 +1,13 @@
+{
+  "name": "velocity-optimization-agent-marketplace",
+  "owner": {
+    "name": "Skryd1X"
+  },
+  "plugins": [
+    {
+      "name": "velocity-optimization-agent",
+      "source": "./",
+      "description": "Audit, optimize, repair and verify complete user journeys."
+    }
+  ]
+}

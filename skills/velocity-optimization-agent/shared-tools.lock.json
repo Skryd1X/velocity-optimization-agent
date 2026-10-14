@@ -1,0 +1,46 @@
+{
+  "origin": "Skryd1X/kinesis-design-studio",
+  "ref": "29ad79856cf4ac1f5c7e2f1bb20f5e44cd99f03e",
+  "files": [
+    {
+      "path": "scripts/audit-ui.cjs",
+      "sha256": "214e96ad848b7ecdc9ca48df5cea1ff29305848cba211b03492a529e2de3ce20"
+    },
+    {
+      "path": "scripts/dom-probe.cjs",
+      "sha256": "9aff71d648ee8b5b4afd87c7997bf59690cfdfa2a50ea1bbedc596f97d776ef7"
+    },
+    {
+      "path": "scripts/motion-metrics.cjs",
+      "sha256": "72dd4a4c2266a08f4ba60a5f98700222e09fbf662cdb7723e97bd655ef675bc8"
+    },
+    {
+      "path": "scripts/profiles.cjs",
+      "sha256": "bd882507b753cedf929da8e6c7e221b87f483358f1660944fb5b1d26f9598503"
+    },
+    {
+      "path": "scripts/playwright-runtime.cjs",
+      "sha256": "82971a95eb9df995b733fb0d17fcc84bddad0deb87ce4cb7fd9e8c4f40a45bf2"
+    },
+    {
+      "path": "scripts/refresh-device-catalog.cjs",
+      "sha256": "3b9adfcd7cb9c36b6246a243d249fee1ee30a229703ed944229abb088ca33547"
+    },
+    {
+      "path": "assets/device-catalog.json",
+      "sha256": "5e05cb153db2fd5188e1509a3de1720b94281072611c12bb2f0ac8e25ed3db0f"
+    },
+    {
+      "path": "licenses/playwright/LICENSE",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb"
+    },
+    {
+      "path": "licenses/playwright/NOTICE",
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d"
+    },
+    {
+      "path": "licenses/playwright/ThirdPartyNotices.txt",
+      "sha256": "b17ac0bd6f4b8207e440639cc8e0ba1bf1d9eaf9b12236764ab93b346c7abd8e"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "url": "http://127.0.0.1:8000",
+  "allowed_origins": [
+    "http://127.0.0.1:8000"
+  ],
+  "samples": 7,
+  "output": "web-baseline.json",
+  "ready_selector": "main",
+  "context": {
+    "scenario": "home",
+    "environment": "local-fixture",
+    "build_mode": "release",
+    "device": "chromium-1280x800",
+    "dataset": "synthetic-v1",
+    "workload": "navigation",
+    "cache_state": "fresh-browser-context"
+  }
+}

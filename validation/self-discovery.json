@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "root": "<package-root>",
+  "files_seen": 59,
+  "truncated": false,
+  "excluded_directories": [
+    ".git",
+    ".next",
+    ".venv",
+    "Pods",
+    "__pycache__",
+    "build",
+    "dist",
+    "node_modules",
+    "vendor",
+    "venv"
+  ],
+  "signals": [],
+  "manifests": [
+    "package.json"
+  ],
+  "coverage": "manifest signals only; confirm routes, services and runtime"
+}

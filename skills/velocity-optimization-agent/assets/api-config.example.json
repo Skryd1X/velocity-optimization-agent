@@ -1,0 +1,19 @@
+{
+  "url": "http://127.0.0.1:8000/health",
+  "allowed_origins": [
+    "http://127.0.0.1:8000"
+  ],
+  "samples": 7,
+  "expected_json": {
+    "status": "ok"
+  },
+  "context": {
+    "scenario": "health",
+    "environment": "local-fixture",
+    "build_mode": "release",
+    "device": "local-host",
+    "dataset": "synthetic-v1",
+    "workload": "sequential-read",
+    "cache_state": "warm"
+  }
+}

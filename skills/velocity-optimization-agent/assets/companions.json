@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-14",
+  "companions": {
+    "kinesis-design-studio": {
+      "repository": "https://github.com/Skryd1X/kinesis-design-studio.git",
+      "ref": "29ad79856cf4ac1f5c7e2f1bb20f5e44cd99f03e",
+      "path": "skills/kinesis-design-studio",
+      "compatible_major": 1
+    },
+    "aegis-security-agent": {
+      "repository": "https://github.com/Skryd1X/aegis-security-agent.git",
+      "ref": "d94cbbf360e343e4e98716f5a529a835b41d06ec",
+      "path": "skills/aegis-security-agent",
+      "compatible_major": 1
+    }
+  }
+}

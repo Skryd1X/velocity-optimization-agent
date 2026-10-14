@@ -1,0 +1,3351 @@
+{
+  "schema_version": 1,
+  "fixture": "synthetic UI/navigation defects",
+  "layouts": [
+    {
+      "phase": "before",
+      "viewport": {
+        "width": 320,
+        "height": 720
+      },
+      "issues": [
+        {
+          "code": "horizontal-overflow",
+          "selector": "html",
+          "details": {
+            "viewport": 320,
+            "scrollWidth": 1640,
+            "suspects": [
+              "main",
+              "h1"
+            ]
+          },
+          "severity": "major"
+        },
+        {
+          "code": "occluded-control",
+          "selector": "#action",
+          "details": {
+            "blocked": [
+              {
+                "x": 80,
+                "y": 129.875,
+                "by": "div.overlay"
+              },
+              {
+                "x": 38,
+                "y": 113.075,
+                "by": "div.overlay"
+              },
+              {
+                "x": 122,
+                "y": 113.075,
+                "by": "div.overlay"
+              },
+              {
+                "x": 38,
+                "y": 146.675,
+                "by": "div.overlay"
+              },
+              {
+                "x": 122,
+                "y": 146.675,
+                "by": "div.overlay"
+              }
+            ]
+          },
+          "severity": "major"
+        }
+      ]
+    },
+    {
+      "phase": "before",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "issues": [
+        {
+          "code": "horizontal-overflow",
+          "selector": "html",
+          "details": {
+            "viewport": 768,
+            "scrollWidth": 1640,
+            "suspects": [
+              "main",
+              "h1"
+            ]
+          },
+          "severity": "major"
+        },
+        {
+          "code": "occluded-control",
+          "selector": "#action",
+          "details": {
+            "blocked": [
+              {
+                "x": 80,
+                "y": 129.875,
+                "by": "div.overlay"
+              },
+              {
+                "x": 38,
+                "y": 113.075,
+                "by": "div.overlay"
+              },
+              {
+                "x": 122,
+                "y": 113.075,
+                "by": "div.overlay"
+              },
+              {
+                "x": 38,
+                "y": 146.675,
+                "by": "div.overlay"
+              },
+              {
+                "x": 122,
+                "y": 146.675,
+                "by": "div.overlay"
+              }
+            ]
+          },
+          "severity": "major"
+        }
+      ]
+    },
+    {
+      "phase": "before",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "issues": [
+        {
+          "code": "horizontal-overflow",
+          "selector": "html",
+          "details": {
+            "viewport": 1440,
+            "scrollWidth": 1640,
+            "suspects": [
+              "main",
+              "h1"
+            ]
+          },
+          "severity": "major"
+        },
+        {
+          "code": "occluded-control",
+          "selector": "#action",
+          "details": {
+            "blocked": [
+              {
+                "x": 80,
+                "y": 129.875,
+                "by": "div.overlay"
+              },
+              {
+                "x": 38,
+                "y": 113.075,
+                "by": "div.overlay"
+              },
+              {
+                "x": 122,
+                "y": 113.075,
+                "by": "div.overlay"
+              },
+              {
+                "x": 38,
+                "y": 146.675,
+                "by": "div.overlay"
+              },
+              {
+                "x": 122,
+                "y": 146.675,
+                "by": "div.overlay"
+              }
+            ]
+          },
+          "severity": "major"
+        }
+      ]
+    },
+    {
+      "phase": "after",
+      "viewport": {
+        "width": 320,
+        "height": 720
+      },
+      "issues": []
+    },
+    {
+      "phase": "after",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "issues": []
+    },
+    {
+      "phase": "after",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "issues": []
+    }
+  ],
+  "before": {
+    "schema_version": 1,
+    "context": {
+      "scenario": "fixture-home",
+      "environment": "local-fixture",
+      "build_mode": "release",
+      "device": "chromium-1280x800",
+      "dataset": "fixture-v1",
+      "workload": "navigation",
+      "cache_state": "fresh-browser-context"
+    },
+    "failures": 0,
+    "metrics": [
+      {
+        "name": "navigation_load",
+        "unit": "ms",
+        "direction": "lower",
+        "samples": [
+          230.30000000447035,
+          205.10000000149012,
+          206.79999999701977,
+          221.20000000298023,
+          214.69999999552965,
+          217.30000000447035,
+          206.5
+        ]
+      }
+    ],
+    "observations": [
+      {
+        "success": true,
+        "load_ms": 230.30000000447035,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 205.10000000149012,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 206.79999999701977,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 221.20000000298023,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 214.69999999552965,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 217.30000000447035,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 206.5,
+        "resources": 1,
+        "transfer_bytes": 325
+      }
+    ],
+    "evidence": "Chromium lab navigation; fresh browser cache, not guaranteed cold server/OS cache; no field INP or physical-device claim"
+  },
+  "after": {
+    "schema_version": 1,
+    "context": {
+      "scenario": "fixture-home",
+      "environment": "local-fixture",
+      "build_mode": "release",
+      "device": "chromium-1280x800",
+      "dataset": "fixture-v1",
+      "workload": "navigation",
+      "cache_state": "fresh-browser-context"
+    },
+    "failures": 0,
+    "metrics": [
+      {
+        "name": "navigation_load",
+        "unit": "ms",
+        "direction": "lower",
+        "samples": [
+          40.899999998509884,
+          37.399999998509884,
+          37.20000000298023,
+          40.19999999552965,
+          39.100000001490116,
+          37.29999999701977,
+          37.899999998509884
+        ]
+      }
+    ],
+    "observations": [
+      {
+        "success": true,
+        "load_ms": 40.899999998509884,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 37.399999998509884,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 37.20000000298023,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 40.19999999552965,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 39.100000001490116,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 37.29999999701977,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 37.899999998509884,
+        "resources": 1,
+        "transfer_bytes": 325
+      }
+    ],
+    "evidence": "Chromium lab navigation; fresh browser cache, not guaranteed cold server/OS cache; no field INP or physical-device claim"
+  },
+  "full_profile_count": 300,
+  "matrix_runs": [
+    {
+      "id": "viewport-320x568",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "landscape-568x320",
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-360x640",
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "landscape-640x360",
+      "viewport": {
+        "width": 640,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-375x667",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "landscape-667x375",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "landscape-844x390",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-412x915",
+      "viewport": {
+        "width": 412,
+        "height": 915
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "landscape-915x412",
+      "viewport": {
+        "width": 915,
+        "height": 412
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-430x932",
+      "viewport": {
+        "width": 430,
+        "height": 932
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "landscape-932x430",
+      "viewport": {
+        "width": 932,
+        "height": 430
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-540x720",
+      "viewport": {
+        "width": 540,
+        "height": 720
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "landscape-720x540",
+      "viewport": {
+        "width": 720,
+        "height": 540
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-600x800",
+      "viewport": {
+        "width": 600,
+        "height": 800
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "landscape-800x600",
+      "viewport": {
+        "width": 800,
+        "height": 600
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-768x1024",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "landscape-1024x768",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-820x1180",
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "landscape-1180x820",
+      "viewport": {
+        "width": 1180,
+        "height": 820
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-912x1368",
+      "viewport": {
+        "width": 912,
+        "height": 1368
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "landscape-1368x912",
+      "viewport": {
+        "width": 1368,
+        "height": 912
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-1024x768",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "landscape-768x1024",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-1280x720",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-1366x768",
+      "viewport": {
+        "width": 1366,
+        "height": 768
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-1440x900",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-1536x864",
+      "viewport": {
+        "width": 1536,
+        "height": 864
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-1920x1080",
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-2560x1440",
+      "viewport": {
+        "width": 2560,
+        "height": 1440
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-3440x1440",
+      "viewport": {
+        "width": 3440,
+        "height": 1440
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-3840x2160",
+      "viewport": {
+        "width": 3840,
+        "height": 2160
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-1280x500",
+      "viewport": {
+        "width": 1280,
+        "height": 500
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "viewport-1920x600",
+      "viewport": {
+        "width": 1920,
+        "height": 600
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-blackberry-playbook",
+      "viewport": {
+        "width": 600,
+        "height": 1024
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-blackberry-playbook-landscape",
+      "viewport": {
+        "width": 1024,
+        "height": 600
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-blackberry-z30",
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-blackberry-z30-landscape",
+      "viewport": {
+        "width": 640,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-note-3",
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-note-3-landscape",
+      "viewport": {
+        "width": 640,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-note-ii",
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-note-ii-landscape",
+      "viewport": {
+        "width": 640,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-s-iii",
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-s-iii-landscape",
+      "viewport": {
+        "width": 640,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-s5",
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-s5-landscape",
+      "viewport": {
+        "width": 640,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-s8",
+      "viewport": {
+        "width": 360,
+        "height": 740
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-s8-landscape",
+      "viewport": {
+        "width": 740,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-s9-",
+      "viewport": {
+        "width": 320,
+        "height": 658
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-s9-landscape",
+      "viewport": {
+        "width": 658,
+        "height": 320
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-s24",
+      "viewport": {
+        "width": 360,
+        "height": 780
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-s24-landscape",
+      "viewport": {
+        "width": 780,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-a55",
+      "viewport": {
+        "width": 480,
+        "height": 1040
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-a55-landscape",
+      "viewport": {
+        "width": 1040,
+        "height": 480
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-tab-s4",
+      "viewport": {
+        "width": 712,
+        "height": 1138
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-tab-s4-landscape",
+      "viewport": {
+        "width": 1138,
+        "height": 712
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-tab-s9",
+      "viewport": {
+        "width": 640,
+        "height": 1024
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-tab-s9-landscape",
+      "viewport": {
+        "width": 1024,
+        "height": 640
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-fold-6",
+      "viewport": {
+        "width": 928,
+        "height": 1004
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-fold-6-landscape",
+      "viewport": {
+        "width": 1028,
+        "height": 876
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-fold-6-cover",
+      "viewport": {
+        "width": 484,
+        "height": 1112
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-fold-6-cover-landscape",
+      "viewport": {
+        "width": 1136,
+        "height": 432
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-fold-7",
+      "viewport": {
+        "width": 984,
+        "height": 1016
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-fold-7-landscape",
+      "viewport": {
+        "width": 1040,
+        "height": 932
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-fold-7-cover",
+      "viewport": {
+        "width": 360,
+        "height": 764
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-fold-7-cover-landscape",
+      "viewport": {
+        "width": 788,
+        "height": 308
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-flip-6",
+      "viewport": {
+        "width": 360,
+        "height": 804
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-flip-6-landscape",
+      "viewport": {
+        "width": 828,
+        "height": 308
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-flip-6-cover",
+      "viewport": {
+        "width": 360,
+        "height": 298
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-flip-6-cover-landscape",
+      "viewport": {
+        "width": 322,
+        "height": 308
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-flip-7",
+      "viewport": {
+        "width": 360,
+        "height": 764
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-flip-7-landscape",
+      "viewport": {
+        "width": 788,
+        "height": 308
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-flip-7-cover",
+      "viewport": {
+        "width": 474,
+        "height": 448
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-galaxy-z-flip-7-cover-landscape",
+      "viewport": {
+        "width": 472,
+        "height": 422
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-ipad-gen-5-",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-ipad-gen-5-landscape",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-ipad-gen-6-",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-ipad-gen-6-landscape",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-ipad-gen-7-",
+      "viewport": {
+        "width": 810,
+        "height": 1080
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-ipad-gen-7-landscape",
+      "viewport": {
+        "width": 1080,
+        "height": 810
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-ipad-gen-11-",
+      "viewport": {
+        "width": 656,
+        "height": 944
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-ipad-gen-11-landscape",
+      "viewport": {
+        "width": 944,
+        "height": 656
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-ipad-mini",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-ipad-mini-landscape",
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-ipad-pro-11",
+      "viewport": {
+        "width": 834,
+        "height": 1194
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-ipad-pro-11-landscape",
+      "viewport": {
+        "width": 1194,
+        "height": 834
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-6",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-6-landscape",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-6-plus",
+      "viewport": {
+        "width": 414,
+        "height": 736
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-6-plus-landscape",
+      "viewport": {
+        "width": 736,
+        "height": 414
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-7",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-7-landscape",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-7-plus",
+      "viewport": {
+        "width": 414,
+        "height": 736
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-7-plus-landscape",
+      "viewport": {
+        "width": 736,
+        "height": 414
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-8",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-8-landscape",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-8-plus",
+      "viewport": {
+        "width": 414,
+        "height": 736
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-8-plus-landscape",
+      "viewport": {
+        "width": 736,
+        "height": 414
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-se",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-se-landscape",
+      "viewport": {
+        "width": 568,
+        "height": 320
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-se-3rd-gen-",
+      "viewport": {
+        "width": 375,
+        "height": 667
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-se-3rd-gen-landscape",
+      "viewport": {
+        "width": 667,
+        "height": 375
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-x",
+      "viewport": {
+        "width": 375,
+        "height": 812
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-x-landscape",
+      "viewport": {
+        "width": 812,
+        "height": 375
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-xr",
+      "viewport": {
+        "width": 414,
+        "height": 896
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-xr-landscape",
+      "viewport": {
+        "width": 896,
+        "height": 414
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-11",
+      "viewport": {
+        "width": 414,
+        "height": 715
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-11-landscape",
+      "viewport": {
+        "width": 800,
+        "height": 364
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-11-pro",
+      "viewport": {
+        "width": 375,
+        "height": 635
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-11-pro-landscape",
+      "viewport": {
+        "width": 724,
+        "height": 325
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-11-pro-max",
+      "viewport": {
+        "width": 414,
+        "height": 715
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-11-pro-max-landscape",
+      "viewport": {
+        "width": 808,
+        "height": 364
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-12",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-12-landscape",
+      "viewport": {
+        "width": 750,
+        "height": 340
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-12-pro",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-12-pro-landscape",
+      "viewport": {
+        "width": 750,
+        "height": 340
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-12-pro-max",
+      "viewport": {
+        "width": 428,
+        "height": 746
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-12-pro-max-landscape",
+      "viewport": {
+        "width": 832,
+        "height": 378
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-12-mini",
+      "viewport": {
+        "width": 375,
+        "height": 629
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-12-mini-landscape",
+      "viewport": {
+        "width": 712,
+        "height": 325
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-13",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-13-landscape",
+      "viewport": {
+        "width": 750,
+        "height": 342
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-13-pro",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-13-pro-landscape",
+      "viewport": {
+        "width": 750,
+        "height": 342
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-13-pro-max",
+      "viewport": {
+        "width": 428,
+        "height": 746
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-13-pro-max-landscape",
+      "viewport": {
+        "width": 832,
+        "height": 380
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-13-mini",
+      "viewport": {
+        "width": 375,
+        "height": 629
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-13-mini-landscape",
+      "viewport": {
+        "width": 712,
+        "height": 327
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-14",
+      "viewport": {
+        "width": 390,
+        "height": 664
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-14-landscape",
+      "viewport": {
+        "width": 750,
+        "height": 340
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-14-plus",
+      "viewport": {
+        "width": 428,
+        "height": 746
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-14-plus-landscape",
+      "viewport": {
+        "width": 832,
+        "height": 378
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-14-pro",
+      "viewport": {
+        "width": 393,
+        "height": 660
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-14-pro-landscape",
+      "viewport": {
+        "width": 734,
+        "height": 343
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-14-pro-max",
+      "viewport": {
+        "width": 430,
+        "height": 740
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-14-pro-max-landscape",
+      "viewport": {
+        "width": 814,
+        "height": 380
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-15",
+      "viewport": {
+        "width": 393,
+        "height": 659
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-15-landscape",
+      "viewport": {
+        "width": 734,
+        "height": 343
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-15-plus",
+      "viewport": {
+        "width": 430,
+        "height": 739
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-15-plus-landscape",
+      "viewport": {
+        "width": 814,
+        "height": 380
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-15-pro",
+      "viewport": {
+        "width": 393,
+        "height": 659
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-15-pro-landscape",
+      "viewport": {
+        "width": 734,
+        "height": 343
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-15-pro-max",
+      "viewport": {
+        "width": 430,
+        "height": 739
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-15-pro-max-landscape",
+      "viewport": {
+        "width": 814,
+        "height": 380
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-16",
+      "viewport": {
+        "width": 393,
+        "height": 659
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-16-landscape",
+      "viewport": {
+        "width": 734,
+        "height": 343
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-16-plus",
+      "viewport": {
+        "width": 430,
+        "height": 739
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-16-plus-landscape",
+      "viewport": {
+        "width": 814,
+        "height": 380
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-16-pro",
+      "viewport": {
+        "width": 402,
+        "height": 681
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-16-pro-landscape",
+      "viewport": {
+        "width": 756,
+        "height": 352
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-16-pro-max",
+      "viewport": {
+        "width": 440,
+        "height": 763
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-16-pro-max-landscape",
+      "viewport": {
+        "width": 838,
+        "height": 390
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-16e",
+      "viewport": {
+        "width": 390,
+        "height": 651
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-16e-landscape",
+      "viewport": {
+        "width": 726,
+        "height": 340
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-17",
+      "viewport": {
+        "width": 402,
+        "height": 681
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-17-landscape",
+      "viewport": {
+        "width": 756,
+        "height": 352
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-air",
+      "viewport": {
+        "width": 420,
+        "height": 719
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-air-landscape",
+      "viewport": {
+        "width": 794,
+        "height": 370
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-17-pro",
+      "viewport": {
+        "width": 402,
+        "height": 681
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-17-pro-landscape",
+      "viewport": {
+        "width": 756,
+        "height": 352
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-17-pro-max",
+      "viewport": {
+        "width": 440,
+        "height": 763
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-17-pro-max-landscape",
+      "viewport": {
+        "width": 838,
+        "height": 390
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-17e",
+      "viewport": {
+        "width": 390,
+        "height": 651
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-iphone-17e-landscape",
+      "viewport": {
+        "width": 726,
+        "height": 340
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-kindle-fire-hdx",
+      "viewport": {
+        "width": 800,
+        "height": 1280
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-kindle-fire-hdx-landscape",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-lg-optimus-l70",
+      "viewport": {
+        "width": 384,
+        "height": 640
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-lg-optimus-l70-landscape",
+      "viewport": {
+        "width": 640,
+        "height": 384
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-microsoft-lumia-550",
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-microsoft-lumia-550-landscape",
+      "viewport": {
+        "width": 640,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-microsoft-lumia-950",
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-microsoft-lumia-950-landscape",
+      "viewport": {
+        "width": 640,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nexus-10",
+      "viewport": {
+        "width": 800,
+        "height": 1280
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nexus-10-landscape",
+      "viewport": {
+        "width": 1280,
+        "height": 800
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nexus-4",
+      "viewport": {
+        "width": 384,
+        "height": 640
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nexus-4-landscape",
+      "viewport": {
+        "width": 640,
+        "height": 384
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nexus-5",
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nexus-5-landscape",
+      "viewport": {
+        "width": 640,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nexus-5x",
+      "viewport": {
+        "width": 412,
+        "height": 732
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nexus-5x-landscape",
+      "viewport": {
+        "width": 732,
+        "height": 412
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nexus-6",
+      "viewport": {
+        "width": 412,
+        "height": 732
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nexus-6-landscape",
+      "viewport": {
+        "width": 732,
+        "height": 412
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nexus-6p",
+      "viewport": {
+        "width": 412,
+        "height": 732
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nexus-6p-landscape",
+      "viewport": {
+        "width": 732,
+        "height": 412
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nexus-7",
+      "viewport": {
+        "width": 600,
+        "height": 960
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nexus-7-landscape",
+      "viewport": {
+        "width": 960,
+        "height": 600
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nokia-lumia-520",
+      "viewport": {
+        "width": 320,
+        "height": 533
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nokia-lumia-520-landscape",
+      "viewport": {
+        "width": 533,
+        "height": 320
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nokia-n9",
+      "viewport": {
+        "width": 480,
+        "height": 854
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-nokia-n9-landscape",
+      "viewport": {
+        "width": 854,
+        "height": 480
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-2",
+      "viewport": {
+        "width": 411,
+        "height": 731
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-2-landscape",
+      "viewport": {
+        "width": 731,
+        "height": 411
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-2-xl",
+      "viewport": {
+        "width": 411,
+        "height": 823
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-2-xl-landscape",
+      "viewport": {
+        "width": 823,
+        "height": 411
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-3",
+      "viewport": {
+        "width": 393,
+        "height": 786
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-3-landscape",
+      "viewport": {
+        "width": 786,
+        "height": 393
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-4",
+      "viewport": {
+        "width": 353,
+        "height": 745
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-4-landscape",
+      "viewport": {
+        "width": 745,
+        "height": 353
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-4a-5g-",
+      "viewport": {
+        "width": 412,
+        "height": 765
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-4a-5g-landscape",
+      "viewport": {
+        "width": 840,
+        "height": 312
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-5",
+      "viewport": {
+        "width": 393,
+        "height": 727
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-5-landscape",
+      "viewport": {
+        "width": 802,
+        "height": 293
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-6",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-6-landscape",
+      "viewport": {
+        "width": 863,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-6-pro",
+      "viewport": {
+        "width": 412,
+        "height": 816
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-6-pro-landscape",
+      "viewport": {
+        "width": 840,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-6a",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-6a-landscape",
+      "viewport": {
+        "width": 863,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-7",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-7-landscape",
+      "viewport": {
+        "width": 863,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-7-pro",
+      "viewport": {
+        "width": 412,
+        "height": 816
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-7-pro-landscape",
+      "viewport": {
+        "width": 840,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-7a",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-7a-landscape",
+      "viewport": {
+        "width": 863,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-8",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-8-landscape",
+      "viewport": {
+        "width": 863,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-8-pro",
+      "viewport": {
+        "width": 448,
+        "height": 921
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-8-pro-landscape",
+      "viewport": {
+        "width": 945,
+        "height": 396
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-8a",
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-8a-landscape",
+      "viewport": {
+        "width": 863,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-9",
+      "viewport": {
+        "width": 360,
+        "height": 732
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-9-landscape",
+      "viewport": {
+        "width": 756,
+        "height": 308
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-9-pro",
+      "viewport": {
+        "width": 427,
+        "height": 876
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-9-pro-landscape",
+      "viewport": {
+        "width": 900,
+        "height": 375
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-9-pro-xl",
+      "viewport": {
+        "width": 448,
+        "height": 921
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-9-pro-xl-landscape",
+      "viewport": {
+        "width": 945,
+        "height": 396
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-10",
+      "viewport": {
+        "width": 360,
+        "height": 732
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-10-landscape",
+      "viewport": {
+        "width": 756,
+        "height": 308
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-10-pro",
+      "viewport": {
+        "width": 427,
+        "height": 876
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-10-pro-landscape",
+      "viewport": {
+        "width": 900,
+        "height": 375
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-10-pro-xl",
+      "viewport": {
+        "width": 448,
+        "height": 921
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-pixel-10-pro-xl-landscape",
+      "viewport": {
+        "width": 945,
+        "height": 396
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-moto-g4",
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-moto-g4-landscape",
+      "viewport": {
+        "width": 640,
+        "height": 360
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-desktop-chrome-hidpi",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-desktop-edge-hidpi",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-desktop-firefox-hidpi",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-desktop-safari",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-desktop-chrome",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-desktop-edge",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "device-desktop-firefox",
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "breakpoint-600-below",
+      "viewport": {
+        "width": 599,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "breakpoint-600-exact",
+      "viewport": {
+        "width": 600,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "breakpoint-600-above",
+      "viewport": {
+        "width": 601,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "breakpoint-768-below",
+      "viewport": {
+        "width": 767,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "breakpoint-768-exact",
+      "viewport": {
+        "width": 768,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "breakpoint-768-above",
+      "viewport": {
+        "width": 769,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "breakpoint-1024-below",
+      "viewport": {
+        "width": 1023,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "breakpoint-1024-exact",
+      "viewport": {
+        "width": 1024,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "breakpoint-1024-above",
+      "viewport": {
+        "width": 1025,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-240",
+      "viewport": {
+        "width": 240,
+        "height": 844
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-313",
+      "viewport": {
+        "width": 313,
+        "height": 844
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-386",
+      "viewport": {
+        "width": 386,
+        "height": 844
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-459",
+      "viewport": {
+        "width": 459,
+        "height": 844
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-532",
+      "viewport": {
+        "width": 532,
+        "height": 844
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-605",
+      "viewport": {
+        "width": 605,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-678",
+      "viewport": {
+        "width": 678,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-751",
+      "viewport": {
+        "width": 751,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-824",
+      "viewport": {
+        "width": 824,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-897",
+      "viewport": {
+        "width": 897,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-970",
+      "viewport": {
+        "width": 970,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-1043",
+      "viewport": {
+        "width": 1043,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-1116",
+      "viewport": {
+        "width": 1116,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-1189",
+      "viewport": {
+        "width": 1189,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-1262",
+      "viewport": {
+        "width": 1262,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-1335",
+      "viewport": {
+        "width": 1335,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-1408",
+      "viewport": {
+        "width": 1408,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-1481",
+      "viewport": {
+        "width": 1481,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-1554",
+      "viewport": {
+        "width": 1554,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-1627",
+      "viewport": {
+        "width": 1627,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-1700",
+      "viewport": {
+        "width": 1700,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-1773",
+      "viewport": {
+        "width": 1773,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-1846",
+      "viewport": {
+        "width": 1846,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-1919",
+      "viewport": {
+        "width": 1919,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-1992",
+      "viewport": {
+        "width": 1992,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-2065",
+      "viewport": {
+        "width": 2065,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-2138",
+      "viewport": {
+        "width": 2138,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-2211",
+      "viewport": {
+        "width": 2211,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-2284",
+      "viewport": {
+        "width": 2284,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-2357",
+      "viewport": {
+        "width": 2357,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-2430",
+      "viewport": {
+        "width": 2430,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-2503",
+      "viewport": {
+        "width": 2503,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-2576",
+      "viewport": {
+        "width": 2576,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-2649",
+      "viewport": {
+        "width": 2649,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-2722",
+      "viewport": {
+        "width": 2722,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-2795",
+      "viewport": {
+        "width": 2795,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-2868",
+      "viewport": {
+        "width": 2868,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-2941",
+      "viewport": {
+        "width": 2941,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-3014",
+      "viewport": {
+        "width": 3014,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-3087",
+      "viewport": {
+        "width": 3087,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-3160",
+      "viewport": {
+        "width": 3160,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-3233",
+      "viewport": {
+        "width": 3233,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-3306",
+      "viewport": {
+        "width": 3306,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-3379",
+      "viewport": {
+        "width": 3379,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-3452",
+      "viewport": {
+        "width": 3452,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-3525",
+      "viewport": {
+        "width": 3525,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-3598",
+      "viewport": {
+        "width": 3598,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-3671",
+      "viewport": {
+        "width": 3671,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-3744",
+      "viewport": {
+        "width": 3744,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    },
+    {
+      "id": "sweep-3817",
+      "viewport": {
+        "width": 3817,
+        "height": 900
+      },
+      "browser": "chromium",
+      "issues": [],
+      "interaction": "passed"
+    }
+  ],
+  "passed": true,
+  "boundary": "Synthetic Chromium layout/interaction and navigation runs; emulated device matrix is not physical-device or preferred-engine coverage"
+}

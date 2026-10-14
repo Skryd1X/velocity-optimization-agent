@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "context": {
+    "scenario": "fixture-home",
+    "environment": "local-fixture",
+    "build_mode": "release",
+    "device": "chromium-1280x800",
+    "dataset": "fixture-v1",
+    "workload": "navigation",
+    "cache_state": "fresh-browser-context"
+  },
+  "passed": true,
+  "metrics": [
+    {
+      "name": "navigation_load",
+      "unit": "ms",
+      "before_median": 214.69999999552965,
+      "after_median": 37.899999998509884,
+      "before_p95": 230.30000000447035,
+      "after_p95": 40.899999998509884,
+      "status": "improved",
+      "budget_pass": true,
+      "improvement_percent": 82.24055579777855
+    }
+  ],
+  "failures_before": 0,
+  "failures_after": 0,
+  "tail_note": "Small samples are local observations, not population tail estimates"
+}

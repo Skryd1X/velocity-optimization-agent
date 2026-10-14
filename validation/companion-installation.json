@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "companions": [
+    {
+      "name": "aegis-security-agent",
+      "status": "needs-reload",
+      "ref": "d94cbbf360e343e4e98716f5a529a835b41d06ec",
+      "repository": "https://github.com/Skryd1X/aegis-security-agent.git",
+      "repeated_ensure": "Existing installation reused",
+      "installed_files": 11,
+      "boundary": "Installed in an isolated fixture; not activated in a Claude/Codex session"
+    },
+    {
+      "name": "kinesis-design-studio",
+      "status": "needs-reload",
+      "ref": "29ad79856cf4ac1f5c7e2f1bb20f5e44cd99f03e",
+      "repository": "https://github.com/Skryd1X/kinesis-design-studio.git",
+      "repeated_ensure": "Existing installation reused",
+      "installed_files": 822,
+      "boundary": "Installed in an isolated fixture; not activated in a Claude/Codex session"
+    }
+  ]
+}

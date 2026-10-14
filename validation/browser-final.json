@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "fixture": "synthetic UI/navigation defects",
+  "layouts": [
+    {
+      "phase": "before",
+      "viewport": {
+        "width": 320,
+        "height": 720
+      },
+      "issues": [
+        {
+          "code": "horizontal-overflow",
+          "selector": "html",
+          "details": {
+            "viewport": 320,
+            "scrollWidth": 1640,
+            "suspects": [
+              "main",
+              "h1"
+            ]
+          },
+          "severity": "major"
+        },
+        {
+          "code": "occluded-control",
+          "selector": "#action",
+          "details": {
+            "blocked": [
+              {
+                "x": 80,
+                "y": 129.875,
+                "by": "div.overlay"
+              },
+              {
+                "x": 38,
+                "y": 113.075,
+                "by": "div.overlay"
+              },
+              {
+                "x": 122,
+                "y": 113.075,
+                "by": "div.overlay"
+              },
+              {
+                "x": 38,
+                "y": 146.675,
+                "by": "div.overlay"
+              },
+              {
+                "x": 122,
+                "y": 146.675,
+                "by": "div.overlay"
+              }
+            ]
+          },
+          "severity": "major"
+        }
+      ]
+    },
+    {
+      "phase": "before",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "issues": [
+        {
+          "code": "horizontal-overflow",
+          "selector": "html",
+          "details": {
+            "viewport": 768,
+            "scrollWidth": 1640,
+            "suspects": [
+              "main",
+              "h1"
+            ]
+          },
+          "severity": "major"
+        },
+        {
+          "code": "occluded-control",
+          "selector": "#action",
+          "details": {
+            "blocked": [
+              {
+                "x": 80,
+                "y": 129.875,
+                "by": "div.overlay"
+              },
+              {
+                "x": 38,
+                "y": 113.075,
+                "by": "div.overlay"
+              },
+              {
+                "x": 122,
+                "y": 113.075,
+                "by": "div.overlay"
+              },
+              {
+                "x": 38,
+                "y": 146.675,
+                "by": "div.overlay"
+              },
+              {
+                "x": 122,
+                "y": 146.675,
+                "by": "div.overlay"
+              }
+            ]
+          },
+          "severity": "major"
+        }
+      ]
+    },
+    {
+      "phase": "before",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "issues": [
+        {
+          "code": "horizontal-overflow",
+          "selector": "html",
+          "details": {
+            "viewport": 1440,
+            "scrollWidth": 1640,
+            "suspects": [
+              "main",
+              "h1"
+            ]
+          },
+          "severity": "major"
+        },
+        {
+          "code": "occluded-control",
+          "selector": "#action",
+          "details": {
+            "blocked": [
+              {
+                "x": 80,
+                "y": 129.875,
+                "by": "div.overlay"
+              },
+              {
+                "x": 38,
+                "y": 113.075,
+                "by": "div.overlay"
+              },
+              {
+                "x": 122,
+                "y": 113.075,
+                "by": "div.overlay"
+              },
+              {
+                "x": 38,
+                "y": 146.675,
+                "by": "div.overlay"
+              },
+              {
+                "x": 122,
+                "y": 146.675,
+                "by": "div.overlay"
+              }
+            ]
+          },
+          "severity": "major"
+        }
+      ]
+    },
+    {
+      "phase": "after",
+      "viewport": {
+        "width": 320,
+        "height": 720
+      },
+      "issues": []
+    },
+    {
+      "phase": "after",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "issues": []
+    },
+    {
+      "phase": "after",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "issues": []
+    }
+  ],
+  "before": {
+    "schema_version": 1,
+    "context": {
+      "scenario": "fixture-home",
+      "environment": "local-fixture",
+      "build_mode": "release",
+      "device": "chromium-1280x800",
+      "dataset": "fixture-v1",
+      "workload": "navigation",
+      "cache_state": "fresh-browser-context"
+    },
+    "failures": 0,
+    "metrics": [
+      {
+        "name": "navigation_load",
+        "unit": "ms",
+        "direction": "lower",
+        "samples": [
+          233.20000000298023,
+          204.79999999701977,
+          207.90000000596046,
+          218.89999999850988,
+          210.60000000149012,
+          209.5,
+          205.70000000298023
+        ]
+      }
+    ],
+    "observations": [
+      {
+        "success": true,
+        "load_ms": 233.20000000298023,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 204.79999999701977,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 207.90000000596046,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 218.89999999850988,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 210.60000000149012,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 209.5,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 205.70000000298023,
+        "resources": 1,
+        "transfer_bytes": 325
+      }
+    ],
+    "evidence": "Chromium lab navigation; fresh browser cache, not guaranteed cold server/OS cache; no field INP or physical-device claim"
+  },
+  "after": {
+    "schema_version": 1,
+    "context": {
+      "scenario": "fixture-home",
+      "environment": "local-fixture",
+      "build_mode": "release",
+      "device": "chromium-1280x800",
+      "dataset": "fixture-v1",
+      "workload": "navigation",
+      "cache_state": "fresh-browser-context"
+    },
+    "failures": 0,
+    "metrics": [
+      {
+        "name": "navigation_load",
+        "unit": "ms",
+        "direction": "lower",
+        "samples": [
+          27.80000000447035,
+          36.20000000298023,
+          36,
+          37.20000000298023,
+          37.69999999552965,
+          36.399999998509884,
+          41
+        ]
+      }
+    ],
+    "observations": [
+      {
+        "success": true,
+        "load_ms": 27.80000000447035,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 36.20000000298023,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 36,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 37.20000000298023,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 37.69999999552965,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 36.399999998509884,
+        "resources": 1,
+        "transfer_bytes": 325
+      },
+      {
+        "success": true,
+        "load_ms": 41,
+        "resources": 1,
+        "transfer_bytes": 325
+      }
+    ],
+    "evidence": "Chromium lab navigation; fresh browser cache, not guaranteed cold server/OS cache; no field INP or physical-device claim"
+  },
+  "full_profile_count": 300,
+  "passed": true,
+  "boundary": "Six synthetic Chromium layout runs and fourteen navigation runs; generated device matrix is not physical-device coverage"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Velocity Optimization Agent"
+  short_description: "Measure, repair, and verify performance and product quality"
+  default_prompt: "Use $velocity-optimization-agent to discover this project, measure and fix bottlenecks and bugs, verify device adaptation, and coordinate Kinesis/Aegis when required."
+policy:
+  allow_implicit_invocation: true

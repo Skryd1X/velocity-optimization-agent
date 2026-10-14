@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "integrated_passes": 0,
+  "checks": {
+    "discovery": {"status": "pending", "evidence": []},
+    "performance": {"status": "pending", "evidence": []},
+    "data": {"status": "pending", "evidence": []},
+    "functional": {"status": "pending", "evidence": []},
+    "responsive": {"status": "pending", "evidence": []},
+    "accessibility": {"status": "pending", "evidence": []},
+    "security": {"status": "pending", "evidence": []}
+  },
+  "performance": {"status": "pending", "evidence": []},
+  "findings": [],
+  "companions": []
+}

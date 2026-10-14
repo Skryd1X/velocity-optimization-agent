@@ -1,0 +1,9 @@
+{
+  "name": "velocity-optimization-agent",
+  "version": "1.0.0",
+  "description": "Measured performance optimization, bug remediation and guarded quality coordination.",
+  "author": {
+    "name": "Skryd1X"
+  },
+  "license": "MIT"
+}

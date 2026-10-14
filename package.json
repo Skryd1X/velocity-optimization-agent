@@ -1,0 +1,17 @@
+{
+  "name": "velocity-optimization-agent",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Skryd1X",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test tests/core.test.cjs",
+    "test:browser": "node tests/browser-integration.cjs"
+  },
+  "dependencies": {
+    "playwright": "1.62.1"
+  }
+}
